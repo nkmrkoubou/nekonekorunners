@@ -1,5 +1,5 @@
-/* のびーるネコのサポートサイト。ゲームと同じ、夕焼けの空と夜の屋根の色。
-   作りは つみつみネコタワー（/nekotower/）のサポートサイトとそろえている。 */
+/* ねこねこランナーズのサポートサイト。夕やけ商店街の空と屋根の色。
+   作りは もくもくブロック（/mokublock/）のサポートサイトとそろえている。 */
 :root{
   --dusk:#ffd2b8; --paper:#fff8f3; --line:#f3d3c2; --ink:#2b2440; --muted:#6f6380; --accent:#e0405a; --roof:#2b2440;
   --display:'Rampart One','Hiragino Sans','Yu Gothic',sans-serif;
@@ -28,6 +28,8 @@ ul,ol{padding-left:1.3em}
 footer{margin-top:48px;padding-top:20px;border-top:2px dashed var(--line);color:var(--muted);font-size:13px}
 dt{font-weight:800;margin-top:16px}
 dd{margin:4px 0 0}
+.store{display:inline-block;background:var(--roof);color:#fffaf3;text-decoration:none;font-weight:800;border-radius:12px;padding:10px 18px}
+.store:hover{opacity:.9}
 
 nav.langs{margin-top:-18px;font-size:13px}
 nav.langs a[aria-current]{font-weight:800;text-decoration:none;color:inherit}
